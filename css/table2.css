@@ -1,0 +1,75 @@
+
+.frame {
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(172, 205, 215);
+}
+
+
+
+
+
+
+
+.frame-table td,.frame-table th{
+    padding: 15px;
+    border-bottom: 1px solid rgba(172, 205, 215);
+    
+}
+
+.frame-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.frame-table td:nth-child(2) {
+    width: 200px;
+}
+
+
+
+
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: chocolate;
+    
+}
+
+.btn:active {
+    background-color: brown;
+    border: solid 1px black;
+}
+
+.btn:focus {
+    background-color: chocolate;
+}
+
+.input-test {
+    font-size: 20px;
+}
+
+.intput-test:focus {
+    border: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:link{
+    color: violet;
+}

@@ -1,0 +1,149 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>document</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="flex-container">
+        <div class="flex-item">
+            <!--            <div class="item-text" style="font-size: 40px; text-align: left;">logo</div>-->
+            <i class="fas fa-american-sign-language-interpreting" style="font-size: 40px; text-align: left;">.#</i>
+        </div>
+        <div class="flex-item" style="flex-grow: 3;">
+            <div class="item-text" style="font-size: 30px;"></div>
+        </div>
+        <div class="flex-item">
+            <div class="item-text" id="item-products">products</div>
+        </div>
+        <div class="flex-item">
+            <div class="item-text">services</div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="main-background">
+        <h4 class="main-title">Buy our shose! Now On Sale</h4>
+        <div class="product-explain">
+            <p>우리신발 와따라구! 가죽으로만들었는데 완전 대박이라구!!</p>
+            <p>뭘 사야할 지 모르겠다면 그냥 여기와서 사라구!</p>
+
+            <button class="btn-buy">Buy Now</button>
+        </div>
+    </div>
+
+    <div class="intro">
+        <h3 class="intro-text">How we design our shoses</h3>
+        <p style="color:dimgray">E_ gulza is anyword we can say that look up insight<br>
+            who knows what we can do? Possible relative is our passion<br>
+            THANK YOU!</p>
+    </div>
+
+    <div class="menu-container">
+        <div>
+            <i class="fas fa-shipping-fast"></i>
+            <h4 class="menu-text">Fast Shipping</h4>
+            <p class="menu-text">lorem ipsum</p>
+        </div>
+        <div>
+            <i class="fas fa-ticket-alt"></i>
+            <h4 class="menu-text">Free Coupons</h4>
+            <p class="menu-text">lorem ipsum</p>
+        </div>
+        <div>
+            <i class="fas fa-headset"></i>
+            <h4 class="menu-text">Good Service</h4>
+            <p class="menu-text">lorem ipsum</p>
+        </div>
+        <div>
+            <i class="fas fa-book-dead"></i>
+            <h4 class="menu-text">New Products</h4>
+            <p class="menu-text">lorem ipsum</p>
+        </div>
+        <div style="float: none; clear: both;"></div>
+    </div>
+
+    <div class="shop-bg">
+        <div class="shop-container">
+            <div class="shop-item">
+                <div style="position: relative;">
+                    <div class="overlay-wrap">
+                        <div class="overlay-black">
+                            <div class="overlay-text">$60<br>인기상품</div>
+                        </div>
+                    </div>
+                    <img src="img/product1-1.jpeg">
+                </div>
+            </div>
+            <div class="shop-item">
+                <img src="img/product2.jpeg">
+            </div>
+            <div class="shop-item">
+                <img src="img/product3.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <form>
+            <div class="contact-background">
+                <div class="headLine">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="email">
+                    <p class="your-email">Your Email</p>
+                    <div class="email-holder">
+                        <input type="text" placeholder="     email@example.com" class="email-box">
+                    </div>
+                </div>
+                <div class="name">
+                    <div class="Fname">
+                        <p class="text">First name</p>
+                        <input type="text" class="Fname-text">
+                    </div>
+                    <div class="Lname">
+                        <p class="text">Last name</p>
+                        <input type="text" class="Lname-text">
+                    </div>
+                </div>
+                <div class="message">
+                    <p class="text">Message</p>
+                    <input type="text" class="message-text">
+                </div>
+                <div class="sub-submit">
+                    <input type="checkbox" id="a"><label for="a" style="font-size: 13px;"> subscribe</label>
+                </div>
+                <div class="btn-send">
+                    <button type="submit" class="btn-submit">SEND</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script>
+        $('.btn-buy').click(function() {
+            console.log("번 눌렸습니다.");
+        })
+    </script>
+</body></html>

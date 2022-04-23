@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.background-container {
+    height: 550px;
+    padding: 20px;
+    color: white;
+    background:
+        linear-gradient(rgba(52, 147, 223, 1), rgba(85, 85, 194, 1));
+}
+
+
+.main-text {
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    transition: all 0.5s;
+}
+
+.main-item {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+.iPhone-img {
+    margin-left: 100px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+
+
+.iPhone {
+    width: 300px;
+    height: 300px;
+}
+
+.main-iPhone {
+    bottom: 0px;
+    width: 400px;
+    float: right;
+    margin-top: 95px;
+}
+
+.btn {
+    width: 110px;
+    height: 40px;
+    padding: 15px, 20px;
+    font-size: 16px;
+    font-family: 'nanumsquare';
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-black {
+    background: #444;
+    color: white;
+}
+
+.btn-black:hover {
+    background: rgba(200, 200, 200, 0.5);
+    color: black;
+}
+
+.btn-black:active {
+    background: #888;
+}
+
+
+.white-text-container {
+    height: 200px;
+    padding: 30px;
+}
+
+.white-text {
+    text-align: center;
+}
+
+.main-icon {
+    height: 230px;
+    background: rgba(85, 85, 194, 1);
+    padding: 20px;
+}
+
+.icon-text {
+    display: inline;
+    padding: 40px;
+    margin-top: 50px;
+    color: #eee;
+    text-align: center;
+}
+
+.icon-menu {
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.icon-menu div{
+    float: left;
+    width: 25%;
+}
+
+.menu-text {
+    color: #eee;
+}
+
+
+
+.portfolio {
+    padding: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.portfolio-item1 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(https://codingapple.com/wp-content/uploads/2019/06/portfolio-1.jpg);
+    background-size: cover;
+    transition: all 0.7s;
+}
+
+.portfolio-container {
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.portfolio-text {
+    color: white;
+    padding: 50px;
+    width: 100%;
+    margin-top: 140px
+}
+
+.portfolio-text >h4 {
+    margin-bottom: 0;;
+}
+
+.portfolio-text >p {
+    margin-top: 0;;
+}
+
+
+.portfolio-item2 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(https://codingapple.com/wp-content/uploads/2019/06/portfolio-2.jpg);
+    background-size: cover;
+    transition: all 0.7s;
+}
+
+.portfolio-item3 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(https://codingapple.com/wp-content/uploads/2019/06/portfolio-3.jpg);
+    background-size: cover;
+    transition: all 0.7s;
+}
+
+.portfolio-item4 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: url(https://codingapple.com/wp-content/uploads/2019/06/portfolio-4.jpg);
+    background-size: cover;
+    transition: all 0.7s;
+}
+
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: 0px solid white;
+    transition: all 0.7s;
+}
+
+
+
+.black-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: black;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.portfolio-item1:hover .black-box{
+    opacity: 0.2;
+}
+.portfolio-item2:hover .black-box{
+    opacity: 0.2;
+}
+.portfolio-item3:hover .black-box{
+    opacity: 0.2;
+}
+.portfolio-item4:hover .black-box{
+    opacity: 0.2;
+}
+
+.portfolio-item1:hover .white-box{
+    border: 35px solid white;
+}
+.portfolio-item2:hover .white-box{
+    border: 35px solid white;
+}
+.portfolio-item3:hover .white-box{
+    border: 35px solid white;
+}
+.portfolio-item4:hover .white-box{
+    border: 35px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .main-iPhone {
+        width: 260px;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-top: 66px;
+        border-bottom: 260px;
+    }
+    .main-text {
+        float: none;
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+    .portfolio-item1 {
+        float: none;
+        width: 100%;
+    }
+    .portfolio-item2 {
+        float: none;
+        width: 100%;
+    }
+    .portfolio-item3 {
+        float: none;
+        width: 100%;
+    }
+    .portfolio-item4 {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+}
+
+#wrapper {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 20px;
+}
+
+footer {
+    height: 10px;
+    position: relative;
+    transform: translateY(-100%);
+    background-color: lightpink;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+}
